@@ -1,0 +1,1 @@
+This readme specifically describes the execution of each individual step in compilation. That is, preprocessing, compiling, assembling and linking of object code and libraries to output an executable file. 

@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - This function complies a program which assigns
+ * main - This function complies a program which assigns
  * a random number to a variable n each time
  * it is excuted.
  *

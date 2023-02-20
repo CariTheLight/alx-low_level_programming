@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - This function assigns a new value to 
-* variable n each time it is executed.The 
-* program should print whether the number stored
-* in variable n is positive or negative.
-* 
-* Return: 0 on success, non-zero on failure
-*/
+ * main - This function assigns a new value to
+ * variable n each time it is executed.The
+ * program should print whether the number stored
+ * in variable n is positive or negative.
+ *
+ * Return: 0 on success, non-zero on failure
+ * /
 int main(void)
 {
 	int n;

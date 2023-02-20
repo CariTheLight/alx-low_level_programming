@@ -8,7 +8,7 @@
  * in variable n is positive or negative.
  *
  * Return: 0 on success, non-zero on failure
- * /
+ */
 int main(void)
 {
 	int n;

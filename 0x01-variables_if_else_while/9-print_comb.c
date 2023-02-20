@@ -17,7 +17,6 @@ int main(void)
 		if (i < 9 || j < 9)
 		{
 		putchar(',');
-		putchar(' ');
 	}
 	}
 	}

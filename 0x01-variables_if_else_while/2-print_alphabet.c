@@ -2,15 +2,14 @@
 /**
  * main - Entry
  *
- * Return: 0 isf success, or non-zero if failure
+ * Return: 0 upon success, non-zero if failure
  */
-
 int main(void)
-	{
-	int i;
-	for (i = 'a'; i <= 'z'; i++)
-	}
-	putchar(i);
-	}
-	return (0);
+{
+    int i;
+    for (i = 'a'; i <= 'z'; i++) {
+        putchar(i);
+    }
+    putchar('\n');
+    return 0;
 }

@@ -2,13 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Entry.
+ * Main - Entry
  *
- * Description: The main function is the entry point to the program and
- * initializes the int output variable with an empty input variable
- * , void.
- *
- * Return: 0 on success, 1 on failure.
+ * Return: 0 on success, non-zero on failure
  */
 int main(void)
 {
@@ -16,11 +12,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	printf("%d is", n);
 	if (n > 0)
+	{
 	printf("is positive\n");
-	if (n == 0)
+	}
+	else if (n == 0)
+	{
 	printf("is zero\n");
-	if (n < 0)
+	}
+	else (n < 0)
+	{
 	printf("is negative\n");
+	}
 	return (0);
 }

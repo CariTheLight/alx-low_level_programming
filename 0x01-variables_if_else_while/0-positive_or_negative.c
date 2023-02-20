@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Entry
+ * Main - This function complies a program which assigns
+ * a random number to a variable n each time
+ * it is excuted.
  *
  * Return: 0 on success, non-zero on failure
  */

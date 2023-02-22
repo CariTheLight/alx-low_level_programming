@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet prints the alphabet from a to z
- * in lowercase letter and prints a newline
+ * Prints the alphabet from a to z
  *
  * There are no arguments taken and no return
  * value

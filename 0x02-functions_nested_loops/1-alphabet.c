@@ -2,8 +2,7 @@
 /**
  * print_alphabet prints the alphabet from a to z
  *
- * There are no arguments taken and no return
- * value
+ * This function takes no arguments and has no return value
  */
 void print_alphabet(void)
 {

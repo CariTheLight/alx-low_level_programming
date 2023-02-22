@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Prints the alphabet from a to z
+ * print_alphabet prints the alphabet from a to z
  *
  * There are no arguments taken and no return
  * value

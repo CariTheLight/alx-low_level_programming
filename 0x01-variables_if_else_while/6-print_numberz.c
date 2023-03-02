@@ -1,20 +1,23 @@
 #include <stdio.h>
-/** main - Entry
+#include <stdlib.h>
+
+/**
+ * main - return single integer from 0-10
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
-int main(void) 
+
+int main(void)
 {
-	putchar('0');
-	putchar('1');
-   	putchar('2');
-	putchar('3');
-	putchar('4');
-	putchar('5');
-	putchar('6');
-	putchar('7');
-	putchar('8');
-	putchar('9');
+	int num = '0';
+
+	while (num <= '9')
+	{
+		putchar(num);
+		num++;
+	}
+
 	putchar('\n');
+
 	return (0);
 }

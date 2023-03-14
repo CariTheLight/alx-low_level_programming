@@ -3,5 +3,7 @@
 
 int _putchar(char);
 int atoi(const char *str);
+int add(int a, int b);
+int _isdigit(int c);
 
 #endif
